@@ -2,7 +2,7 @@ require 'CSV'
 require 'pry'
 require './lib/merchant'
 
-class MerchantRepository
+class MerchantCollection
   def initialize(filepath)
     @merchants = []
     load_merchants(filepath)
